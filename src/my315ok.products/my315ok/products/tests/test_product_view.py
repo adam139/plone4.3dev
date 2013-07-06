@@ -58,8 +58,8 @@ class TestProductlView(unittest.TestCase):
 
 
         outstr = '<a href="%s/@@images/image/large" title="Gif image">' % obj
-        import pdb
-        pdb.set_trace()
+#        import pdb
+#        pdb.set_trace()
         
         self.assertTrue(outstr in browser.contents)
         
