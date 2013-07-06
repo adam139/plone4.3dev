@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/collective.cover/src/collective/cover/browser/contentchooser.py=utf-8
+encoding//src/collective.cover/src/collective/cover/controlpanel.py=utf-8
+encoding//src/collective.cover/src/collective/cover/event.py=utf-8
+encoding//src/collective.cover/src/collective/cover/tests/test_collection_tile.py=utf-8
+encoding//src/collective.cover/src/collective/cover/tiles/banner.py=utf-8
+encoding//src/collective.cover/src/collective/cover/tiles/base.py=utf-8
+encoding//src/collective.cover/src/collective/cover/tiles/basic.py=utf-8
+encoding//src/collective.cover/src/collective/cover/tiles/image.py=utf-8
