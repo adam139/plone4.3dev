@@ -8,6 +8,9 @@
 <head>
     <metal:block fill-slot="style_slot">
         <link rel="stylesheet" type="text/css" 
+              tal:attributes="href string:http://images.315ok.org/jqzoom_ev_23/css/jquery.jqzoom.css"
+            />    	
+        <link rel="stylesheet" type="text/css" 
             tal:define="navroot context/@@plone_portal_state/navigation_root_url"
             tal:attributes="href string:${navroot}/++resource++my315ok.products/multiproducts.css"
             />
@@ -57,7 +60,7 @@
 </metal:main>
 <metal:js fill-slot="javascript_bottom_slot">
 			<script type="text/javascript" src="test.js" 
-    tal:attributes="src string:http://images.315ok.org/jqzoom.pack.1.0.1.js"></script>
+    tal:attributes="src string:http://images.315ok.org/jqzoom_ev_23/js/jquery.jqzoom-core-pack.js"></script>
 		   <script type="text/javascript">
         jq(document).ready(function(){
 	         var options3 =
