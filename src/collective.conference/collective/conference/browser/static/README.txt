@@ -5,7 +5,13 @@ Contents of this folder may be addressed in templates via view/static. For
 example, if you placed at test.js resource in this folder, you could insert it
 via template code like:
 
-<script type="text/javascript" src="test.js" 
-    tal:attributes="src string:${view/static}/test.js"></script>
 
+<head>
+    <metal:block fill-slot="style_slot">
+        <link rel="stylesheet" type="text/css"
+            tal:define="navroot context/@@plone_portal_state/navigation_root_url"
+            tal:attributes="href string:${navroot}/++resource++example.conference/conference.css"
+            />
+    </metal:block>
+</head>
 Static folder resources are public.

@@ -26,6 +26,7 @@ setup(name='my315ok.portlet.fetchouterhtml',
       install_requires=[
           'setuptools',
           'BeautifulSoup',
+          'pytidylib',
           'Products.PloneTestCase',
           # -*- Extra requirements: -*-
       ],

@@ -26,7 +26,11 @@
       description="Extension profile for Conference management"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
-
+<!-- register static resources diretory -->
+<browser:resourceDirectory
+  name="collective.conference"
+  directory="browser/static" />
+  
   <!-- -*- extra stuff goes here -*- -->
 
     <browser:defaultView
